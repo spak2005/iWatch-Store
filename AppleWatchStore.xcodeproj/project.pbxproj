@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		991713332B4FFD250081B03E /* GridProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991713322B4FFD250081B03E /* GridProductItem.swift */; };
+		991713352B500B780081B03E /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991713342B500B780081B03E /* Text+Extension.swift */; };
 		99CE8A462B4EABF3001DB121 /* AppleWatchStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE8A452B4EABF3001DB121 /* AppleWatchStoreApp.swift */; };
 		99CE8A482B4EABF3001DB121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE8A472B4EABF3001DB121 /* ContentView.swift */; };
 		99CE8A4A2B4EABF4001DB121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CE8A492B4EABF4001DB121 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		991713322B4FFD250081B03E /* GridProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProductItem.swift; sourceTree = "<group>"; };
+		991713342B500B780081B03E /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
 		99CE8A422B4EABF3001DB121 /* AppleWatchStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CE8A452B4EABF3001DB121 /* AppleWatchStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreApp.swift; sourceTree = "<group>"; };
 		99CE8A472B4EABF3001DB121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 				99CE8A642B4EB773001DB121 /* Constants.swift */,
 				99CE8A662B4EC0E3001DB121 /* CustomButtonStyle.swift */,
 				99CE8A682B4EC4A6001DB121 /* ButtonStyle+Extension.swift */,
+				991713342B500B780081B03E /* Text+Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				99CE8A592B4EB109001DB121 /* Supporting Views */,
+				991713322B4FFD250081B03E /* GridProductItem.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 				99CE8A5F2B4EB2BD001DB121 /* SectionHeader.swift in Sources */,
 				99CE8A6B2B4ECC5E001DB121 /* BrowseSection.swift in Sources */,
 				99CE8A482B4EABF3001DB121 /* ContentView.swift in Sources */,
+				991713332B4FFD250081B03E /* GridProductItem.swift in Sources */,
+				991713352B500B780081B03E /* Text+Extension.swift in Sources */,
 				99CE8A672B4EC0E3001DB121 /* CustomButtonStyle.swift in Sources */,
 				99CE8A692B4EC4A6001DB121 /* ButtonStyle+Extension.swift in Sources */,
 				99CE8A5B2B4EB224001DB121 /* ScaledFont 2.swift in Sources */,
