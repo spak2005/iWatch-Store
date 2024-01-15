@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		991713332B4FFD250081B03E /* GridProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991713322B4FFD250081B03E /* GridProductItem.swift */; };
 		991713352B500B780081B03E /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991713342B500B780081B03E /* Text+Extension.swift */; };
+		99CCFC032B5024670082ECAC /* PopularSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC022B5024670082ECAC /* PopularSection.swift */; };
+		99CCFC052B54D8780082ECAC /* CategoryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC042B54D8780082ECAC /* CategoryListItem.swift */; };
+		99CCFC072B54DC220082ECAC /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC062B54DC220082ECAC /* CategorySection.swift */; };
+		99CCFC0B2B54E1C50082ECAC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC0A2B54E1C50082ECAC /* HomeView.swift */; };
 		99CE8A462B4EABF3001DB121 /* AppleWatchStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE8A452B4EABF3001DB121 /* AppleWatchStoreApp.swift */; };
 		99CE8A482B4EABF3001DB121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE8A472B4EABF3001DB121 /* ContentView.swift */; };
 		99CE8A4A2B4EABF4001DB121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CE8A492B4EABF4001DB121 /* Assets.xcassets */; };
@@ -27,6 +31,10 @@
 /* Begin PBXFileReference section */
 		991713322B4FFD250081B03E /* GridProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProductItem.swift; sourceTree = "<group>"; };
 		991713342B500B780081B03E /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		99CCFC022B5024670082ECAC /* PopularSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularSection.swift; sourceTree = "<group>"; };
+		99CCFC042B54D8780082ECAC /* CategoryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListItem.swift; sourceTree = "<group>"; };
+		99CCFC062B54DC220082ECAC /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
+		99CCFC0A2B54E1C50082ECAC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		99CE8A422B4EABF3001DB121 /* AppleWatchStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99CE8A452B4EABF3001DB121 /* AppleWatchStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchStoreApp.swift; sourceTree = "<group>"; };
 		99CE8A472B4EABF3001DB121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				99CE8A582B4EB0F3001DB121 /* Home */,
-				99CE8A622B4EB70A001DB121 /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				99CE8A592B4EB109001DB121 /* Supporting Views */,
-				991713322B4FFD250081B03E /* GridProductItem.swift */,
+				99CCFC0A2B54E1C50082ECAC /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -135,7 +142,12 @@
 		99CE8A592B4EB109001DB121 /* Supporting Views */ = {
 			isa = PBXGroup;
 			children = (
+				991713322B4FFD250081B03E /* GridProductItem.swift */,
+				99CCFC022B5024670082ECAC /* PopularSection.swift */,
+				99CE8A622B4EB70A001DB121 /* CardView.swift */,
 				99CE8A6A2B4ECC5E001DB121 /* BrowseSection.swift */,
+				99CCFC042B54D8780082ECAC /* CategoryListItem.swift */,
+				99CCFC062B54DC220082ECAC /* CategorySection.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -221,7 +233,11 @@
 				99CE8A5B2B4EB224001DB121 /* ScaledFont 2.swift in Sources */,
 				99CE8A462B4EABF3001DB121 /* AppleWatchStoreApp.swift in Sources */,
 				99CE8A652B4EB773001DB121 /* Constants.swift in Sources */,
+				99CCFC032B5024670082ECAC /* PopularSection.swift in Sources */,
 				99CE8A632B4EB70A001DB121 /* CardView.swift in Sources */,
+				99CCFC072B54DC220082ECAC /* CategorySection.swift in Sources */,
+				99CCFC0B2B54E1C50082ECAC /* HomeView.swift in Sources */,
+				99CCFC052B54D8780082ECAC /* CategoryListItem.swift in Sources */,
 				99CE8A612B4EB3E5001DB121 /* Collection+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

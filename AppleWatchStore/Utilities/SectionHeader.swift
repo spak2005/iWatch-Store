@@ -26,7 +26,7 @@ struct SectionHeader: View {
 
 #Preview {
     VStack {
-        SectionHeader(title: "Popular")
+//        SectionHeader(title: "Popular")
         SectionHeader(title: "Popular", icon: "slider.horizontal.3")
     }
 }
