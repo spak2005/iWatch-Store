@@ -46,16 +46,9 @@ struct GridProductItem: View {
                 .fill(Constants.gradient)
         )
         .overlay(alignment: .topTrailing){
-            heart
+            Constants.heart
         }
     }
-}
-var heart: some View{
-    Image(systemName: "heart")
-        .symbolVariant(.none)
-        .font(.system(size:24))
-        .padding(.trailing, 20)
-        .padding(.top, 10)
 }
 
 #Preview {
