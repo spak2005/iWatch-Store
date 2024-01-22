@@ -13,7 +13,9 @@ struct FavouriteView: View {
             ScrollView{
                 VStack(spacing:70){
                     ForEach(0 ..< 3) { item in
-                        NavigationLink {} label: {
+                        NavigationLink {
+                            ProductDetailView()
+                        } label: {
                             WideProductItem()
                         }
                         .buttonStyle(.plain)

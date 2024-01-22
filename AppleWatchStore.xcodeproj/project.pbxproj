@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		991713332B4FFD250081B03E /* GridProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991713322B4FFD250081B03E /* GridProductItem.swift */; };
 		991713352B500B780081B03E /* Text+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991713342B500B780081B03E /* Text+Extension.swift */; };
+		9917A4962B5D5AF9005F4EA7 /* ProductDetailDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4942B5D54F6005F4EA7 /* ProductDetailDescriptionView.swift */; };
+		9917A4992B5D630B005F4EA7 /* CaseSizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4982B5D630B005F4EA7 /* CaseSizesView.swift */; };
+		9917A49B2B5D6377005F4EA7 /* SizeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A49A2B5D6377005F4EA7 /* SizeItem.swift */; };
+		9917A49D2B5DEC92005F4EA7 /* WristItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A49C2B5DEC92005F4EA7 /* WristItem.swift */; };
+		9917A49F2B5DED66005F4EA7 /* WristSizesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A49E2B5DED66005F4EA7 /* WristSizesView.swift */; };
+		9917A4A12B5DEDE5005F4EA7 /* WifiCellularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A02B5DEDE5005F4EA7 /* WifiCellularView.swift */; };
+		9917A4A32B5DEEDF005F4EA7 /* ConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A22B5DEEDF005F4EA7 /* ConnectivityView.swift */; };
+		9917A4A52B5DF054005F4EA7 /* AppleCareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A42B5DF054005F4EA7 /* AppleCareView.swift */; };
+		9917A4A72B5DFC79005F4EA7 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A62B5DFC79005F4EA7 /* ProductDetailView.swift */; };
+		9917A4A92B5E0414005F4EA7 /* AddProductReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A82B5E0414005F4EA7 /* AddProductReview.swift */; };
 		99CCFC032B5024670082ECAC /* PopularSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC022B5024670082ECAC /* PopularSection.swift */; };
 		99CCFC052B54D8780082ECAC /* CategoryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC042B54D8780082ECAC /* CategoryListItem.swift */; };
 		99CCFC072B54DC220082ECAC /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC062B54DC220082ECAC /* CategorySection.swift */; };
@@ -39,6 +49,16 @@
 /* Begin PBXFileReference section */
 		991713322B4FFD250081B03E /* GridProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridProductItem.swift; sourceTree = "<group>"; };
 		991713342B500B780081B03E /* Text+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extension.swift"; sourceTree = "<group>"; };
+		9917A4942B5D54F6005F4EA7 /* ProductDetailDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailDescriptionView.swift; sourceTree = "<group>"; };
+		9917A4982B5D630B005F4EA7 /* CaseSizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseSizesView.swift; sourceTree = "<group>"; };
+		9917A49A2B5D6377005F4EA7 /* SizeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeItem.swift; sourceTree = "<group>"; };
+		9917A49C2B5DEC92005F4EA7 /* WristItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristItem.swift; sourceTree = "<group>"; };
+		9917A49E2B5DED66005F4EA7 /* WristSizesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristSizesView.swift; sourceTree = "<group>"; };
+		9917A4A02B5DEDE5005F4EA7 /* WifiCellularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiCellularView.swift; sourceTree = "<group>"; };
+		9917A4A22B5DEEDF005F4EA7 /* ConnectivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityView.swift; sourceTree = "<group>"; };
+		9917A4A42B5DF054005F4EA7 /* AppleCareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCareView.swift; sourceTree = "<group>"; };
+		9917A4A62B5DFC79005F4EA7 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		9917A4A82B5E0414005F4EA7 /* AddProductReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductReview.swift; sourceTree = "<group>"; };
 		99CCFC022B5024670082ECAC /* PopularSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularSection.swift; sourceTree = "<group>"; };
 		99CCFC042B54D8780082ECAC /* CategoryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListItem.swift; sourceTree = "<group>"; };
 		99CCFC062B54DC220082ECAC /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
@@ -78,6 +98,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9917A4922B5D54B0005F4EA7 /* Product Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9917A4932B5D54C6005F4EA7 /* Supporting Views */,
+				9917A4A62B5DFC79005F4EA7 /* ProductDetailView.swift */,
+			);
+			path = "Product Detail";
+			sourceTree = "<group>";
+		};
+		9917A4932B5D54C6005F4EA7 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				9917A4942B5D54F6005F4EA7 /* ProductDetailDescriptionView.swift */,
+				9917A4982B5D630B005F4EA7 /* CaseSizesView.swift */,
+				9917A49A2B5D6377005F4EA7 /* SizeItem.swift */,
+				9917A49C2B5DEC92005F4EA7 /* WristItem.swift */,
+				9917A49E2B5DED66005F4EA7 /* WristSizesView.swift */,
+				9917A4A02B5DEDE5005F4EA7 /* WifiCellularView.swift */,
+				9917A4A22B5DEEDF005F4EA7 /* ConnectivityView.swift */,
+				9917A4A42B5DF054005F4EA7 /* AppleCareView.swift */,
+				9917A4A82B5E0414005F4EA7 /* AddProductReview.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
 		99CCFC0C2B54F4180082ECAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +239,7 @@
 		99CE8A572B4EB0E8001DB121 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9917A4922B5D54B0005F4EA7 /* Product Detail */,
 				99CCFC0E2B54F4360082ECAC /* Favourites */,
 				99CCFC0D2B54F42B0082ECAC /* Cart */,
 				99CCFC0C2B54F4180082ECAC /* Products */,
@@ -297,19 +343,29 @@
 			files = (
 				99CCFC202B569AB30082ECAC /* FilterView.swift in Sources */,
 				99CCFC122B54F4880082ECAC /* CartView.swift in Sources */,
+				9917A4A72B5DFC79005F4EA7 /* ProductDetailView.swift in Sources */,
 				99CCFC222B569AE40082ECAC /* FilterSectionView.swift in Sources */,
 				99CE8A5F2B4EB2BD001DB121 /* SectionHeader.swift in Sources */,
+				9917A49B2B5D6377005F4EA7 /* SizeItem.swift in Sources */,
 				99CE8A6B2B4ECC5E001DB121 /* BrowseSection.swift in Sources */,
 				99CE8A482B4EABF3001DB121 /* ContentView.swift in Sources */,
 				991713332B4FFD250081B03E /* GridProductItem.swift in Sources */,
 				991713352B500B780081B03E /* Text+Extension.swift in Sources */,
 				99CE8A672B4EC0E3001DB121 /* CustomButtonStyle.swift in Sources */,
+				9917A4992B5D630B005F4EA7 /* CaseSizesView.swift in Sources */,
+				9917A4962B5D5AF9005F4EA7 /* ProductDetailDescriptionView.swift in Sources */,
 				99CE8A692B4EC4A6001DB121 /* ButtonStyle+Extension.swift in Sources */,
 				99CCFC152B54F4A60082ECAC /* FavouritesView.swift in Sources */,
 				99CE8A5B2B4EB224001DB121 /* ScaledFont 2.swift in Sources */,
 				99CE8A462B4EABF3001DB121 /* AppleWatchStoreApp.swift in Sources */,
+				9917A49F2B5DED66005F4EA7 /* WristSizesView.swift in Sources */,
 				99CE8A652B4EB773001DB121 /* Constants.swift in Sources */,
+				9917A4A32B5DEEDF005F4EA7 /* ConnectivityView.swift in Sources */,
 				99CCFC032B5024670082ECAC /* PopularSection.swift in Sources */,
+				9917A4A92B5E0414005F4EA7 /* AddProductReview.swift in Sources */,
+				9917A4A12B5DEDE5005F4EA7 /* WifiCellularView.swift in Sources */,
+				9917A49D2B5DEC92005F4EA7 /* WristItem.swift in Sources */,
+				9917A4A52B5DF054005F4EA7 /* AppleCareView.swift in Sources */,
 				99CE8A632B4EB70A001DB121 /* CardView.swift in Sources */,
 				99CCFC1E2B5500BF0082ECAC /* ProductsGridView.swift in Sources */,
 				99CCFC242B56D69E0082ECAC /* WideProductItem.swift in Sources */,
