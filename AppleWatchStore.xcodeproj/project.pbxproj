@@ -19,6 +19,7 @@
 		9917A4A52B5DF054005F4EA7 /* AppleCareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A42B5DF054005F4EA7 /* AppleCareView.swift */; };
 		9917A4A72B5DFC79005F4EA7 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A62B5DFC79005F4EA7 /* ProductDetailView.swift */; };
 		9917A4A92B5E0414005F4EA7 /* AddProductReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9917A4A82B5E0414005F4EA7 /* AddProductReview.swift */; };
+		991862C72B5FCA1C0095C9AA /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991862C62B5FCA1C0095C9AA /* HTTPMethod.swift */; };
 		99CCFC032B5024670082ECAC /* PopularSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC022B5024670082ECAC /* PopularSection.swift */; };
 		99CCFC052B54D8780082ECAC /* CategoryListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC042B54D8780082ECAC /* CategoryListItem.swift */; };
 		99CCFC072B54DC220082ECAC /* CategorySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CCFC062B54DC220082ECAC /* CategorySection.swift */; };
@@ -59,6 +60,7 @@
 		9917A4A42B5DF054005F4EA7 /* AppleCareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCareView.swift; sourceTree = "<group>"; };
 		9917A4A62B5DFC79005F4EA7 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		9917A4A82B5E0414005F4EA7 /* AddProductReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductReview.swift; sourceTree = "<group>"; };
+		991862C62B5FCA1C0095C9AA /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
 		99CCFC022B5024670082ECAC /* PopularSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularSection.swift; sourceTree = "<group>"; };
 		99CCFC042B54D8780082ECAC /* CategoryListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListItem.swift; sourceTree = "<group>"; };
 		99CCFC062B54DC220082ECAC /* CategorySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySection.swift; sourceTree = "<group>"; };
@@ -121,6 +123,46 @@
 				9917A4A82B5E0414005F4EA7 /* AddProductReview.swift */,
 			);
 			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		991862C12B5FC9530095C9AA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				991862C42B5FC9930095C9AA /* Endpoints */,
+				991862C32B5FC9890095C9AA /* Models */,
+				991862C52B5FC9AC0095C9AA /* Services */,
+				991862C22B5FC97A0095C9AA /* Base */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		991862C22B5FC97A0095C9AA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				991862C62B5FCA1C0095C9AA /* HTTPMethod.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		991862C32B5FC9890095C9AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		991862C42B5FC9930095C9AA /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		991862C52B5FC9AC0095C9AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		99CCFC0C2B54F4180082ECAC /* Products */ = {
@@ -194,6 +236,7 @@
 		99CE8A442B4EABF3001DB121 /* AppleWatchStore */ = {
 			isa = PBXGroup;
 			children = (
+				991862C12B5FC9530095C9AA /* Networking */,
 				99CE8A572B4EB0E8001DB121 /* Views */,
 				99CE8A542B4EB006001DB121 /* App */,
 				99CE8A532B4EAFD2001DB121 /* Utilities */,
@@ -364,6 +407,7 @@
 				99CCFC032B5024670082ECAC /* PopularSection.swift in Sources */,
 				9917A4A92B5E0414005F4EA7 /* AddProductReview.swift in Sources */,
 				9917A4A12B5DEDE5005F4EA7 /* WifiCellularView.swift in Sources */,
+				991862C72B5FCA1C0095C9AA /* HTTPMethod.swift in Sources */,
 				9917A49D2B5DEC92005F4EA7 /* WristItem.swift in Sources */,
 				9917A4A52B5DF054005F4EA7 /* AppleCareView.swift in Sources */,
 				99CE8A632B4EB70A001DB121 /* CardView.swift in Sources */,
